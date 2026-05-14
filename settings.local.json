@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude logout *)",
+      "Bash(curl -s http://localhost:8080)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/team.php)",
+      "WebSearch",
+      "Bash(php -r ' *)",
+      "Bash(php -r \"echo PHP_VERSION;\")",
+      "Bash(mv /Users/yato/mach24-website /Users/yato/true-launch)"
+    ],
+    "additionalDirectories": [
+      "/Users/yato/mach24-website"
+    ]
+  }
+}
