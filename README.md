@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # True Launch Website
 
 Professional single-page site with a lightweight PHP + MySQL admin CMS for cPanel.
@@ -38,3 +39,6 @@ Professional single-page site with a lightweight PHP + MySQL admin CMS for cPane
 
 ## Contact form
 - Uses PHP mail(). Update mail.to and mail.from in app/config.php.
+=======
+# truelaunch-website
+>>>>>>> 6df84d0e86ea05da633306d408b9366041ab33c7
