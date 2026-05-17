@@ -3,7 +3,7 @@
 require __DIR__ . '/../../app/bootstrap.php';
 
 if (is_logged_in()) {
-    header('Location: dashboard.php');
+    header('Location: admin/dashboard.php');
     exit;
 }
 
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $pass = $_POST['pass'] ?? '';
 
         if (login_admin($user, $pass, $config)) {
-            header('Location: dashboard.php');
+            header('Location: admin/dashboard.php');
             exit;
         }
         $error = 'Invalid username or password.';
